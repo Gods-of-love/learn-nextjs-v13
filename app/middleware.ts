@@ -1,2 +1,10 @@
-// Middleware allows you to run code before a request is completed.
-// Then, based on the incoming request, you can modify the response by rewriting, redirecting, modifying the request or response headers, or responding directly.
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
+
+export function middleware(request: NextRequest) {
+  return NextResponse.redirect(new URL("/home", request.url));
+}
+
+export const config = {
+  matcher: "/about/:path*",
+};
