@@ -1,7 +1,12 @@
 {
   "name": "learn-nextjs-v13",
+  "author": {
+    "name": "Kiyoshi Araki"
+  },
+  "description": "Welcome to Learn Next.js v13!",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
