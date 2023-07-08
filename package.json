@@ -1,50 +1,50 @@
 {
-  "name": "learn-nextjs-v13",
-  "author": {
-    "name": "Kiyoshi Araki"
-  },
-  "description": "Welcome to Learn Next.js v13!",
-  "version": "0.1.0",
-  "private": true,
-  "license": "MIT",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "eslint": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
-    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
-    "prepare": "husky install"
-  },
-  "dependencies": {
-    "next": "13.4.9",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
-    "@commitlint/types": "^17.4.4",
-    "@types/node": "20.4.1",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.9",
-    "eslint-config-prettier": "^8.8.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
-    "postcss": "8.4.25",
-    "prettier": "^3.0.0",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.1.6"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn prettier",
-      "yarn eslint"
-    ]
-  }
+	"name": "learn-nextjs-v13",
+	"author": {
+		"name": "Kiyoshi Araki"
+	},
+	"description": "Welcome to Learn Next.js v13!",
+	"version": "0.1.0",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"eslint": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+		"prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"next": "13.4.9",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.6",
+		"@commitlint/config-conventional": "^17.6.6",
+		"@commitlint/types": "^17.4.4",
+		"@types/node": "20.4.1",
+		"@types/react": "18.2.14",
+		"@types/react-dom": "18.2.6",
+		"@typescript-eslint/eslint-plugin": "^5.61.0",
+		"@typescript-eslint/parser": "^5.61.0",
+		"autoprefixer": "10.4.14",
+		"eslint": "8.44.0",
+		"eslint-config-next": "13.4.9",
+		"eslint-config-prettier": "^8.8.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.3",
+		"postcss": "8.4.25",
+		"prettier": "^3.0.0",
+		"tailwindcss": "3.3.2",
+		"typescript": "5.1.6"
+	},
+	"lint-staged": {
+		"src/**/*.{js,jsx,ts,tsx}": [
+			"yarn prettier",
+			"yarn eslint"
+		]
+	}
 }
